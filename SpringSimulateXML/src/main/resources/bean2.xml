@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+        xmlns:context="http://www.springframework.org/schema/context">
+
+    <context:component-scan base-package="com.ninjutsu.beans" />
+    <context:property-placeholder location="classpath:foo.properties" />
+    <context:property-override location="classpath:beanOverride.cfg"/>
+    <context:annotation-config/>
+    <context:spring-configured/>
+    <context:mbean-server mbeanServer="www.baidu.com" agent-id="123"/>
+    <context:load-time-weaver weaver-class="org.springframework.instrument.classloading.SimpleLoadTimeWeaver"/>
+    <context:mbean-export server="www.cctv.cn" registration="replaceExisting"/>
+</beans>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN//EN"
+        "http://www.springframework.org/dtd/spring-beans.dtd">
+<beans>
+    <!-- id用来唯一表示该bean，class用来表示该bean的来源-->
+    <bean id="date" class="java.util.Date"/>
+    <bean id="HelloWorld" class="com.gc.action.HelloWorld" destroy-method="cleanup" init-method="init" depends-on="date" autowire="byType">
+        <constructor-arg index="0">
+            <value>HelloWorld</value>
+        </constructor-arg>
+
+    </bean>
+    <bean id="messageSource" class="org.springframework.context.support.ResourceBundleMessageSource">
+        <property name="basename">
+            <value>messages</value>
+        </property>
+    </bean>
+    <bean id="log" class="com.gc.action.Log"/>
+    <bean id="listener" class="com.gc.action.LogListener"/>
+    <bean id="log1" class="com.gc.action.LogAround"/>
+    <bean id="timeBook" class="com.gc.action.TimeBook"/>
+    <bean id="finance" class="com.gc.action.Finance"/>
+
+    <bean id="autoProxyCreator" class="org.springframework.aop.framework.autoproxy.DefaultAdvisorAutoProxyCreator"/>
+    <bean id="logBefore" class="com.gc.action.LogBefore"/>
+    <bean id="logBeforeAdvisor" class="org.springframework.aop.support.RegexpMethodPointcutAdvisor">
+        <property name="advice">
+            <ref bean="logBefore"/>
+        </property>
+        <property name="patterns">
+            <value>.*doCheck*</value>
+        </property>
+    </bean>
+
+    <bean id="logAfter" class="com.gc.action.LogAfter"/>
+    <bean id="logAfterAdvisor" class="org.springframework.aop.support.RegexpMethodPointcutAdvisor">
+        <property name="advice">
+            <ref bean="logAfter"/>
+        </property>
+        <property name="patterns">
+            <value>.*doAuditing.*</value>
+        </property>
+    </bean>
+
+    <bean id="logThrow" class="com.gc.action.LogThrow"/>
+    <bean id="logThrowAdvisor" class="org.springframework.aop.support.RegexpMethodPointcutAdvisor">
+        <property name="advice">
+            <ref bean="logThrow"/>
+        </property>
+        <property name="patterns">
+            <value>.*doAuditing.*</value>
+        </property>
+    </bean>
+</beans>
