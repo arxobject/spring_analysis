@@ -1,1 +1,28 @@
-<mxfile host="app.diagrams.net" modified="2020-11-25T06:56:33.529Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36" version="13.10.0" etag="DerD-ftrh2udvJb5gfnt" type="github"><diagram id="iBMYwgq2QYkNdUKPZtgo">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-11-25T07:03:43.509Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36" etag="-7pSEzbmhXNxijDwDMQH" version="13.10.0" type="github">
+  <diagram id="iBMYwgq2QYkNdUKPZtgo" name="第 1 页">
+    <mxGraphModel dx="852" dy="404" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="jZy2APrJJ9cb_XZQOsR9-1" value="AbstractOwnableSynchronizer" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="110" y="190" width="280" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="jZy2APrJJ9cb_XZQOsR9-2" value="- exclusiveOwnerThread : Thread" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="jZy2APrJJ9cb_XZQOsR9-1">
+          <mxGeometry y="26" width="280" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="jZy2APrJJ9cb_XZQOsR9-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="jZy2APrJJ9cb_XZQOsR9-1">
+          <mxGeometry y="52" width="280" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="jZy2APrJJ9cb_XZQOsR9-4" value="- setExclusiveOwnerThread(Thread): void&#xa;- getExclusiveOwnerThread():Thead" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="jZy2APrJJ9cb_XZQOsR9-1">
+          <mxGeometry y="60" width="280" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="jZy2APrJJ9cb_XZQOsR9-5" value="«interface»&lt;br&gt;&lt;b&gt;Serializable&lt;/b&gt;" style="html=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="110" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="jZy2APrJJ9cb_XZQOsR9-6" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.654;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;dashed=1;endArrow=block;endFill=0;" edge="1" parent="1" source="jZy2APrJJ9cb_XZQOsR9-1" target="jZy2APrJJ9cb_XZQOsR9-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
