@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-11-25T07:03:43.509Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36" etag="-7pSEzbmhXNxijDwDMQH" version="13.10.0" type="github">
+<mxfile host="app.diagrams.net" modified="2020-11-25T08:18:45.761Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36" etag="m41_yM3XOKLJxhKByEby" version="13.10.0" type="github">
   <diagram id="iBMYwgq2QYkNdUKPZtgo" name="第 1 页">
-    <mxGraphModel dx="852" dy="404" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1679" dy="404" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -21,6 +21,9 @@
         </mxCell>
         <mxCell id="jZy2APrJJ9cb_XZQOsR9-6" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.654;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;dashed=1;endArrow=block;endFill=0;" edge="1" parent="1" source="jZy2APrJJ9cb_XZQOsR9-1" target="jZy2APrJJ9cb_XZQOsR9-5">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jZy2APrJJ9cb_XZQOsR9-7" value="exclusiveOwnerThread表示当前占用资源的线程，在排他模式下，即独占式同步机制" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;base=10;position2=0.67;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-110" y="60" width="280" height="130" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
