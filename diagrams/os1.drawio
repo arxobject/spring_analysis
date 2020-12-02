@@ -1,1 +1,65 @@
-<mxfile host="app.diagrams.net" modified="2020-12-02T08:28:14.962Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36" version="13.10.0" etag="4OtBLG0BJRtB9xmiFZkG" type="github"><diagram id="SVoyUvont6r7nQoT7S8h">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-12-02T08:41:39.560Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36" etag="8JsJgHAiWNIaL9Cw0ih-" version="13.10.0" type="github">
+  <diagram id="SVoyUvont6r7nQoT7S8h" name="第 1 页">
+    <mxGraphModel dx="852" dy="404" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Fzms3MZDSGXwMcVucdxO-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="Fzms3MZDSGXwMcVucdxO-2" target="Fzms3MZDSGXwMcVucdxO-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="90" y="230" />
+              <mxPoint x="90" y="433" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Fzms3MZDSGXwMcVucdxO-2" value="#include&amp;lt;stdio.h&amp;gt;&lt;br&gt;int main()&lt;br&gt;{&lt;br&gt;&amp;nbsp; &amp;nbsp; ***&lt;br&gt;&amp;nbsp; &amp;nbsp; printf(&quot;.............&quot;)&lt;br&gt;&amp;nbsp; &amp;nbsp; ***&lt;br&gt;&amp;nbsp; &amp;nbsp; ***&lt;br&gt;&amp;nbsp; &amp;nbsp; ***&lt;br&gt;&amp;nbsp; &amp;nbsp; return 0;&lt;br&gt;&lt;br&gt;}" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;align=left;" vertex="1" parent="1">
+          <mxGeometry x="130" y="140" width="230" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="Fzms3MZDSGXwMcVucdxO-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.004;entryY=0.445;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Fzms3MZDSGXwMcVucdxO-3" target="Fzms3MZDSGXwMcVucdxO-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Fzms3MZDSGXwMcVucdxO-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="160" y="530" as="targetPoint" />
+            <mxPoint x="170" y="450" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Fzms3MZDSGXwMcVucdxO-3" value="standard C libary" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="170" y="410" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Fzms3MZDSGXwMcVucdxO-13" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="30" y="424.5" as="sourcePoint" />
+            <mxPoint x="180" y="424.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Fzms3MZDSGXwMcVucdxO-14" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="300" y="424.5" as="sourcePoint" />
+            <mxPoint x="490" y="425" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Fzms3MZDSGXwMcVucdxO-15" value="User Mode" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="10" y="350" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Fzms3MZDSGXwMcVucdxO-16" value="Kermel&lt;br&gt;Mode" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="10" y="450" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Fzms3MZDSGXwMcVucdxO-20" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Fzms3MZDSGXwMcVucdxO-17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="310" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Fzms3MZDSGXwMcVucdxO-17" value="write()&lt;br&gt;system call" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="170" y="500" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Fzms3MZDSGXwMcVucdxO-21" value="write()" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="160" y="480" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Fzms3MZDSGXwMcVucdxO-22" value="printf 是standare C libary 提供的API&lt;br&gt;&lt;br&gt;printf 函数的调用引发了对应的系统调用write的执行&lt;br&gt;&lt;br&gt;write执行结束时返回值传回用户程序" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="520" y="270" width="210" height="160" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
