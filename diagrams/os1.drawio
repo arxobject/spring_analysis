@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-02T08:58:03.186Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36" etag="5QGVNxgYboIniXPW7dOW" version="13.10.0" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-02T09:07:31.247Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36" etag="dHWiI8hbztCDy62mGYrE" version="13.10.0" type="github">
   <diagram id="SVoyUvont6r7nQoT7S8h" name="第 1 页">
     <mxGraphModel dx="852" dy="404" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -108,10 +108,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Fzms3MZDSGXwMcVucdxO-38" value="user mode" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="630" y="1030" width="70" height="20" as="geometry" />
+          <mxGeometry x="424" y="1030" width="70" height="20" as="geometry" />
         </mxCell>
         <mxCell id="Fzms3MZDSGXwMcVucdxO-39" value="kermel mode" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="630" y="1080" width="90" height="20" as="geometry" />
+          <mxGeometry x="414" y="1080" width="90" height="20" as="geometry" />
         </mxCell>
         <mxCell id="Fzms3MZDSGXwMcVucdxO-40" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -142,6 +142,24 @@
         </mxCell>
         <mxCell id="Fzms3MZDSGXwMcVucdxO-45" value="trap" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="160" y="1000" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Fzms3MZDSGXwMcVucdxO-46" value="系统调用实现机制" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="1200" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Fzms3MZDSGXwMcVucdxO-47" value="系统调用号" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="30" y="1240" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Fzms3MZDSGXwMcVucdxO-48" value="每个系统调用都有一个唯一的数字编号" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="227.5" y="1245" width="255" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Fzms3MZDSGXwMcVucdxO-49" value="用户代码调用API" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="30" y="1320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Fzms3MZDSGXwMcVucdxO-50" value="API中会向系统调用接口指明其所要的系统调用号" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="190" y="1320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Fzms3MZDSGXwMcVucdxO-51" value="操作系统内核中维护了一张索引表，依据这个调用号可以检索到访问系统调用代码在内核中的位置" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="400" y="1320" width="196" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
