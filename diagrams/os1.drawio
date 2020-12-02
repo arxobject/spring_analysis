@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-02T08:41:39.560Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36" etag="8JsJgHAiWNIaL9Cw0ih-" version="13.10.0" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-02T08:49:01.785Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36" etag="wQj_diHBGs9Th4mXRDEW" version="13.10.0" type="github">
   <diagram id="SVoyUvont6r7nQoT7S8h" name="第 1 页">
     <mxGraphModel dx="852" dy="404" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -58,6 +58,36 @@
         </mxCell>
         <mxCell id="Fzms3MZDSGXwMcVucdxO-22" value="printf 是standare C libary 提供的API&lt;br&gt;&lt;br&gt;printf 函数的调用引发了对应的系统调用write的执行&lt;br&gt;&lt;br&gt;write执行结束时返回值传回用户程序" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="520" y="270" width="210" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="Fzms3MZDSGXwMcVucdxO-23" value="双重模式" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="70" y="660" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Fzms3MZDSGXwMcVucdxO-24" value="特殊硬件------划分系统运行状态------" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="60" y="710" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Fzms3MZDSGXwMcVucdxO-30" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Fzms3MZDSGXwMcVucdxO-26" target="Fzms3MZDSGXwMcVucdxO-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Fzms3MZDSGXwMcVucdxO-26" value="用户模式 UserMode" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="70" y="760" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Fzms3MZDSGXwMcVucdxO-31" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="Fzms3MZDSGXwMcVucdxO-27" target="Fzms3MZDSGXwMcVucdxO-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Fzms3MZDSGXwMcVucdxO-27" value="内核模式 KermelMode" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="70" y="800" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Fzms3MZDSGXwMcVucdxO-28" value="执行用户应用程序代码" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="300" y="770" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Fzms3MZDSGXwMcVucdxO-29" value="执行操作系统程序代码" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="300" y="800" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Fzms3MZDSGXwMcVucdxO-32" value="目的：确保系统正确运行" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="310" y="720" width="160" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Fzms3MZDSGXwMcVucdxO-33" value="实现方式：硬件模式位 0内核模式&amp;nbsp; 1用户模式" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="210" y="660" width="290" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
